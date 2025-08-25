@@ -1,0 +1,14 @@
+:root {
+    /* Font type */
+    --font-family: 'MADE TOMMY';
+
+    /* color */
+    --brand-color: #B870EA;
+    --white-color: #E6E6E6;
+    --black-color: #292824;
+    /* Size */
+    --section-font-size: 5rem;
+    --title-font-size: 8rem;
+    --sub-title-font-size: 2.5rem;
+    --body-font-size: 2.5rem;
+}

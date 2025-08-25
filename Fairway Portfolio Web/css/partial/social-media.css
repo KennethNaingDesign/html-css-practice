@@ -1,0 +1,60 @@
+.social-media {
+    background-color: var(--black-color);
+    background-image: url(../../img/adem-ay-Tk9m_HP4rgQ-unsplash.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.social-media h2 {
+    color: var(--white-color);
+    padding-top: 8rem;
+}
+
+.social-media-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.social-media-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-grow: 1;
+}
+
+.social-media-text-container h1 {
+    font-size: 23rem;
+    font-weight: 600;
+    font-family: var(--font-family);
+    line-height: 23rem;
+    color: var(--white-color);
+}
+
+.social-media-text-container p {
+    color: var(--white-color);
+}
+
+.social-media-img-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-grow: 2;
+}
+
+.social-design {
+    width: 170px;
+}
+
+.social-media-buttom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}

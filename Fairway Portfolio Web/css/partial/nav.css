@@ -1,0 +1,30 @@
+.head {
+    background-color: var(--black-color);
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head .logo a img {
+    padding: 25px 0px;
+}
+
+nav {
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li a {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-weight: 700;
+}

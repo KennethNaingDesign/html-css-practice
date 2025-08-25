@@ -1,0 +1,78 @@
+.logo-design-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.logos {
+    width: 170px;
+    display: flex;
+}
+
+.logo-card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    /* flex-wrap: wrap; */
+}
+
+.logo-card {
+    border: 0px solid;
+    border-style: none;
+    text-align: center;
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #a7a7a7;
+}
+
+/* .logo-package-name {
+    background-color: var(--black-color);
+} */
+
+.logo-package-name-text {
+    color: var(--black-color);
+    padding: 40px 60px;
+}
+
+.logo-package-fees {
+    background-color: var(--black-color);
+}
+
+.logo-package-fees-text {
+    color: var(--white-color);
+    padding: 30px 0px;
+    font-size: var(--section-font-size);
+    font-weight: 700;
+    font-family: var(--font-family);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-transform: uppercase;
+}
+
+.logo-package-content-text {
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-family: var(--font-family);
+    padding: 27px 0px;
+
+}
+
+
+.logo-package-content-text-del {
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-family: var(--font-family);
+    padding: 27px 0px;
+    text-decoration: line-through;
+    color: #5b5b5b;
+}
+
+.logo-buttom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
